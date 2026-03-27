@@ -1,0 +1,29 @@
+Domain,Issuer,TLS_Version,Expiry_Date,Days_Left,Risk_Level,Renewal_Required
+google.com,Google Trust Services,TLSv1.3,2026-04-06,66,WARNING,NO
+github.com,Sectigo Limited,TLSv1.3,2026-04-05,65,WARNING,NO
+cloudflare.com,Google Trust Services,TLSv1.3,2026-04-12,72,WARNING,NO
+openai.com,Google Trust Services,TLSv1.3,2026-04-23,82,WARNING,NO
+microsoft.com,Microsoft Corporation,TLSv1.3,2026-07-13,164,SAFE,NO
+apple.com,Apple Inc.,TLSv1.3,2026-03-31,60,WARNING,NO
+wikipedia.org,Let's Encrypt,TLSv1.3,2026-03-08,37,CRITICAL,YES
+ieee.org,GlobalSign nv-sa,TLSv1.3,2026-05-05,95,SAFE,NO
+springer.com,Let's Encrypt,TLSv1.3,2026-03-27,56,WARNING,NO
+sciencedirect.com,Google Trust Services,TLSv1.3,2026-04-02,62,WARNING,NO
+paypal.com,DigiCert Inc,TLSv1.3,2026-07-07,158,SAFE,NO
+visa.com,"CLOUDFLARE, INC.",TLSv1.3,2026-10-04,247,SAFE,NO
+mastercard.com,DigiCert Inc,TLSv1.2,2026-05-19,109,SAFE,NO
+hdfcbank.com,DigiCert Inc,TLSv1.3,2026-04-03,63,WARNING,NO
+india.gov.in,Let's Encrypt,TLSv1.3,2026-04-22,82,WARNING,NO
+gov.uk,GlobalSign nv-sa,TLSv1.3,2026-12-28,332,SAFE,NO
+usa.gov,Let's Encrypt,TLSv1.3,2026-04-20,80,WARNING,NO
+who.int,Google Trust Services,TLSv1.3,2026-03-07,36,CRITICAL,YES
+un.org,COMODO CA Limited,TLSv1.2,2026-09-05,218,SAFE,NO
+amazon.com,DigiCert Inc,TLSv1.3,2026-09-21,234,SAFE,NO
+flipkart.com,GlobalSign nv-sa,TLSv1.3,2026-07-17,167,SAFE,NO
+shopify.com,Google Trust Services,TLSv1.3,2026-03-17,46,CRITICAL,YES
+ebay.com,Sectigo Limited,TLSv1.3,2026-07-28,179,SAFE,NO
+aws.amazon.com,Amazon,TLSv1.3,2026-10-17,260,SAFE,NO
+azure.microsoft.com,Microsoft Corporation,TLSv1.3,2026-07-11,162,SAFE,NO
+digitalocean.com,Google Trust Services,TLSv1.3,2026-04-18,77,WARNING,NO
+vercel.com,Let's Encrypt,TLSv1.3,2026-04-21,81,WARNING,NO
+netlify.com,DigiCert Inc,TLSv1.3,2026-08-21,203,SAFE,NO

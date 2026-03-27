@@ -1,0 +1,35 @@
+domain,days_left,decision,timestamp
+apple.com,44,"Decision: RENEW  
+Reason: Days remaining (44) is less than or equal to 47.",2026-03-26 18:52:11
+sciencedirect.com,46,"To determine whether to renew the certificate or wait, let's check the expiry status first.",
+springer.com,40,WAIT,
+ieee.org,80,"Certificate is HEALTHY (80 days left, WARNING risk level). No action required, monitoring continues.",2026-03-27 08:16:59
+paypal.com,143,Certificate is healthy with 143 days remaining (risk_level: SAFE). No action required.,2026-03-26 19:52:18
+visa.com,232, Agent Error: 'charmap' codec can't encode character '\u2192' in position 10: character maps to <undefined>,2026-03-26 17:17:01
+mastercard.com,94,WAIT,
+hdfcbank.com,48,WAIT,
+india.gov.in,67,"Decision: WAIT  
+Reason: Days remaining (67) is greater than 47.",2026-03-26 18:51:51
+gov.uk,317,WAIT,
+usa.gov,65,WAIT,
+who.int,80,"To determine whether to renew or wait, we need to verify the TLS certificate expiry for the domain ""who.int"".",
+un.org,203,WAIT,
+flipkart.com,152,WAIT,
+shopify.com,31,"TLS certificate for shopify.com had only 31 days left and was marked as CRITICAL. A renewal was successfully initiated and verified, ensuring the domain's security posture is maintained.",2026-03-26 19:55:37
+ebay.com,164,"To determine whether to renew the TLS certificate for ""ebay.com,"" we need to verify its expiry status. Based on the provided information, the certificate has 164 days remaining before expiry.
+
+Since 164 days is significantly more than the threshold of 47 days, the appropriate action is to **WAIT**. 
+
+No immediate renewal is required. 
+
+WAIT",
+aws.amazon.com,245,WAIT,
+azure.microsoft.com,147,WAIT,
+digitalocean.com,62,"To determine whether to renew the TLS certificate for the domain `digitalocean.com`, I will first verify its current expiry status.",
+vercel.com,66,"The TLS certificate for **vercel.com** expires on **2026-04-21**. Since there are more than 47 days remaining before expiry, the recommendation is:
+
+WAIT",
+netlify.com,188,"Decision: WAIT  
+Reason: Days remaining (188) is greater than 47.",2026-03-26 18:52:09
+netflix.com,202,WAIT,
+microsoft.com,168,,
