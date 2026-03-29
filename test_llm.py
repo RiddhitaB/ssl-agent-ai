@@ -10,7 +10,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="deepseek/deepseek-chat",
+    model="openai/gpt-3.5-turbo",  # ✅ FIXED
     messages=[
         {"role": "user", "content": "Say hello in one sentence"}
     ],

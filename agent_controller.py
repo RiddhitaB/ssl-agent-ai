@@ -1,19 +1,11 @@
-from decision_agent import run_decision_logic
-import sys
+from multi_agent_system import run_multi_agent_system
 
 def run_agent_system():
-    print("TLS CERTIFICATE AGENT STARTED")
-
-    if len(sys.argv) > 1:
-        domain = sys.argv[1]
-        print(f"Running for domain: {domain}")
-        run_decision_logic(domain)
-    else:
-        print("Running for all domains")
-        run_decision_logic()
-
-    print("Agent execution completed")
-
+    print(" Starting FULL MULTI-AGENT AI SYSTEM for SSL/TLS Management")
+    results = run_multi_agent_system()
+    print(" Multi-agent execution completed.")
+    for r in results:
+        print(f"{r['domain']} → {r['final_status']}")
 
 if __name__ == "__main__":
     run_agent_system()
